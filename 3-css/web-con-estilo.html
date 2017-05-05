@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <title>Web con estilo</title>
     <style>
-        p{
+        .rojo{
             color: red;
-            font-size: 200%;
         }
         
-        h1{
-            color: blue;
+        .verde{
+            color: green;
+        }
+        
+        .grande{
             font-size: 400%;
+        }
+        
+        #pequeño{
+            font-size: 50%;
+        }
+        
+        .subrayado{
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-   <h1>CSS es genial!</h1>
-   <p>Yo soy yo y mis circunstancias.</p>
-   <p>Esto es fantástico!!!!</p>
+   <h1 class="rojo grande">CSS es genial!</h1>
+   <p class="rojo">Yo soy yo y mis circunstancias.</p>
+   <p class="verde">Esto es fantástico!!!!</p>
+   <p id="pequeño">Este texto tiene <span class="subrayado">fuente más pequeña.</span></p>
    
 </body>
 </html>
