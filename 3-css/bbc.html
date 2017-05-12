@@ -168,12 +168,12 @@
                 padding-right: 4px;
             }
             
-            #article-summary a{
+            /*#article-summary a{
                 text-decoration: none;
                 color: #a91717;
                 border-left: 1px solid #cccccc;
                 padding-left: 8px;
-            }
+            }*/
             
             #article-summary a:hover{
                 color: #1167A8;
@@ -181,6 +181,7 @@
             
             #date{
                 padding-right: 8px;
+                font-size: 14px;
             }
             
             #article-container{
@@ -203,6 +204,39 @@
             .article-link{
                 color: black;
                 text-decoration: none;
+                font-size: 14px;
+            }
+            
+            #topic-link{
+                text-decoration: none;
+                color: #a61b1b;
+            }
+            
+            #watch-listen{
+                margin-left: 20px;
+                width: 330px;
+            }
+            
+            h4{
+                font-size: 26px;
+                font-weight: normal;
+            }
+            
+            .article-side-image{
+                float: left;
+                width: 120px;
+                margin-right: 15px;
+            }
+            
+            .watch-listen-link{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            
+            .watch-listen-link:hover{
+                color: #1167AD;
             }
 
         </style>
@@ -289,13 +323,20 @@
                         <p>
                             <img src="imagenes/reloj.png"> <span id="date">22 April 2016</span><a id="topic-link" href="#">Technology</a>
                         </p>
+                        <hr id="article-hr" align="left">
+                        <p><a class="article-link" href="#">Apple v the FBI - in plain English</a></p>
+                        <p><a class="article-link" href="#">Apple's FBI row is only just beginning</a></p>
 
                     </div>
+                                
                     <img id="main-article-image" src="imagenes/imagen-articulo-principal.png">
-                    <hr id="article-hr" align="left">
-                    <p><a class="article-link" href="#">Apple v the FBI - in plain English</a></p>
-                    <p><a class="article-link" href="#">Apple's FBI row is only just beginning</a></p>
                 </div>
+            </div>
+            <div class="clear"></div>
+            <div id="watch-listen">
+                <h4>Watch/Listen</h4>
+                <img class="article-side-image" src="imagenes/imagen-articulo-1.png">
+                <a class="watch-listen-link" href="#">US Air Force breaks maglev speed record</a>
             </div>
         </div>
         
